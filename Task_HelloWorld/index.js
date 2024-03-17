@@ -30,11 +30,13 @@ function findSide(type){
          return 3;
          break;
         case 'Circle':
-        return 'Infinte';
+        return 'Infinite';
         break;
         case 'Square':
-        return 4
+        return 4;
         break;
+        default:
+        console.log("Enter correct shape");
     }
 }
 // Write your code above
